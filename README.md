@@ -1,19 +1,19 @@
-🚆 Smart Railway Track Monitoring Robot
+***🚆 Smart Railway Track Monitoring Robot***
 ![WhatsApp Image 2025-11-17 at 18 09 32_23d0a5c4](https://github.com/user-attachments/assets/68a9da37-1e14-471c-91f8-691dfbe04623)
 
  <img width="627" height="304" alt="Screenshot 2025-11-17 145842" src="https://github.com/user-attachments/assets/cecf03dd-8c88-4f76-86f9-2685ebf7ef34" />
 
 This project is a low-cost safety robot designed to monitor railway tracks and detect:
 
-Obstacles using Ultrasonic Sensor
+* Obstacles using Ultrasonic Sensor
 
-Cracks using IR Sensor
+* Cracks using IR Sensor
 
-Abnormal track vibration using Vibration Sensor
+* Abnormal track vibration using Vibration Sensor
 
 The robot moves normally when the path is clear and stops automatically when danger is detected.
 
-🔧 Hardware Used
+**🔧 Hardware Used**
 Component	Purpose
 Arduino UNO	Main controller
 Ultrasonic Sensor (HC-SR04)	Detects obstacles
@@ -23,11 +23,11 @@ L298N Motor Driver	Drives DC motors
 DC Motors + Wheels	Robot movement
 LED Indicators	Green = Normal, Red = Danger
 Battery (9–12V)	Power supply
-🧠 Output Classes
+ 
 
 The robot identifies track condition as:
 
-Class	Meaning
+**Class	Meaning**
 NORMAL	Safe, robot continues
 OBSTACLE	Object/block on track
 CRACK	Railway track crack detected
@@ -40,7 +40,7 @@ ELSE IF IR ≤ 514 AND Distance > 29 → NORMAL
 ELSE IF IR > 514 AND Distance ≤ 30 → CRACK + OBSTACLE
 ELSE → CRACK
 
-▶️ How it Works
+**▶️ How it Works**
 
 1️⃣ Robot starts moving forward
 2️⃣ Sensors continuously read data
@@ -53,7 +53,7 @@ Distance: 18  | IR: 1016 | Vib: 950 | Status: CRACK+OBSTACLE
 Distance: 12  | IR: 40 | Vib: 130 | Status: OBSTACLE
  
 
-🚀 Future Improvements
+**🚀 Future Improvements**
 
 Add GPS + GSM for remote alert
 
@@ -61,12 +61,12 @@ Add Camera (ESP32-CAM) for visual crack detection
 
 Add IoT dashboard for live monitoring
 
-👤 Author
+**👤 Author**
 
 Project: Smart Railway Track Monitoring Robot
 Department: AI & Data Science
 Made with Arduino + Machine Learning
 
-📜 License
+*📜 License*
 
 Open-Source (MIT License)
