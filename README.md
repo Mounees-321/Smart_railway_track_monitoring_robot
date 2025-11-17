@@ -28,11 +28,11 @@ The robot moves normally when the path is clear and stops automatically when dan
 The robot identifies track condition as:
 
 **Class	Meaning**
-I) NORMAL	Safe, robot continues
-II) OBSTACLE	Object/block on track
-III) CRACK	Railway track crack detected
-IV) HIGH VIBRATION	Loose / damaged track area
-V) CRACK + OBSTACLE	Multiple hazards detected
+1) NORMAL	Safe, robot continues
+2) OBSTACLE	Object/block on track
+3) CRACK	Railway track crack detected
+4) HIGH VIBRATION	Loose / damaged track area
+5) CRACK + OBSTACLE	Multiple hazards detected
 📌 Simple Decision Logic (from ML model)
 IF vibration > 700 → HIGH VIBRATION
 ELSE IF IR ≤ 514 AND Distance ≤ 29 → OBSTACLE
@@ -42,10 +42,10 @@ ELSE → CRACK
 
 **▶️ How it Works**
 
-1️) Robot starts moving forward
-2️) Sensors continuously read data
-3️) If danger is detected, motors stop and Red LED turns ON
-4️) If safe, robot keeps moving and Green LED turns ON
+1️)Robot starts moving forward
+2️)Sensors continuously read data
+3️)If danger is detected, motors stop and Red LED turns ON
+4️)If safe, robot keeps moving and Green LED turns ON
 
 🧪 Sample Output (Serial Monitor)
 *) Distance: 182 | IR: 33 | Vib: 120 | Status: NORMAL
