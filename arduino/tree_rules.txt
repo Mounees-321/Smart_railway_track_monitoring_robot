@@ -1,0 +1,13 @@
+|--- IR <= 514.50
+|   |--- Distance <= 29.50
+|   |   |--- class: OBSTACLE
+|   |--- Distance >  29.50
+|   |   |--- class: NORMAL
+|--- IR >  514.50
+|   |--- Distance <= 30.00 
+|   |   |--- class: CRACK+OBSTACLE
+|   |--- Distance >  30.00
+|   |   |--- class: CRACK
+
+
+700 was threshold data for vibration , high vibration 
