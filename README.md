@@ -33,7 +33,9 @@ The robot identifies track condition as:
 3) CRACK	Railway track crack detected
 4) HIGH VIBRATION	Loose / damaged track area
 5) CRACK + OBSTACLE	Multiple hazards detected
-📌 Simple Decision Logic (from ML model)
+
+   
+**📌 Simple Decision Logic (from ML model)**
 IF vibration > 700 → HIGH VIBRATION
 ELSE IF IR ≤ 514 AND Distance ≤ 29 → OBSTACLE
 ELSE IF IR ≤ 514 AND Distance > 29 → NORMAL
@@ -47,10 +49,10 @@ ELSE → CRACK
 3️)If danger is detected, motors stop and Red LED turns ON
 4️)If safe, robot keeps moving and Green LED turns ON
 
-🧪 Sample Output (Serial Monitor)
-*) Distance: 182 | IR: 33 | Vib: 120 | Status: NORMAL
-*) Distance: 18  | IR: 1016 | Vib: 950 | Status: CRACK+OBSTACLE
-*) Distance: 12  | IR: 40 | Vib: 130 | Status: OBSTACLE
+****🧪 Sample Output (Serial Monitor)***
+1) Distance: 182 | IR: 33 | Vib: 120 | Status: NORMAL
+2) Distance: 18  | IR: 1016 | Vib: 950 | Status: CRACK+OBSTACLE
+3) Distance: 12  | IR: 40 | Vib: 130 | Status: OBSTACLE
  
 
 **🚀 Future Improvements**
