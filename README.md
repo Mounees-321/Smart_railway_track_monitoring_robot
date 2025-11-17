@@ -14,15 +14,15 @@ This project is a low-cost safety robot designed to monitor railway tracks and d
 The robot moves normally when the path is clear and stops automatically when danger is detected.
 
 **🔧 Hardware Used**
-Component	Purpose
-Arduino UNO	Main controller
-Ultrasonic Sensor (HC-SR04)	Detects obstacles
-IR Sensor (Analog)	Detects cracks on track
-Vibration Sensor (SW-420)	Detects abnormal vibration
-L298N Motor Driver	Drives DC motors
-DC Motors + Wheels	Robot movement
-LED Indicators	Green = Normal, Red = Danger
-Battery (9–12V)	Power supply
+1) Component	Purpose
+2) Arduino UNO	Main controller
+3) Ultrasonic Sensor (HC-SR04)	Detects obstacles
+4) IR Sensor (Analog)	Detects cracks on track
+5) Vibration Sensor (SW-420)	Detects abnormal vibration
+6) L298N Motor Driver	Drives DC motors
+7) DC Motors + Wheels	Robot movement
+8) LED Indicators	Green = Normal, Red = Danger
+9) Battery (9–12V)	Power supply
  
 
 The robot identifies track condition as:
